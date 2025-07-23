@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+.container{
+    width:1140px;
+    margin: auto;
+}
