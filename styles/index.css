@@ -179,7 +179,7 @@
 }
 
 /* Branch style */
-.branch-container{
+.join-container{
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -193,10 +193,37 @@
     height: 530px;
     color: white;
 }
-.branch input{
+.join input{
     width: 645px;
     height: 50px;
     color: white;
     background-color: white;
 }
+
+/* Footer secton style */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-container li{
+    list-style: none;
+}
+.footer-item1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-item2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
 
