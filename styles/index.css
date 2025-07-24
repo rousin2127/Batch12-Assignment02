@@ -104,3 +104,68 @@
 .plants-lover-description li{
     list-style: disc;
 }
+
+/* Deals styls */
+.deals-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width:1440px ;
+    text-align: center;
+    margin-top: 120px;
+}
+.deals-container2{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.deals-container2 .left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    
+}
+.deals-container2 .bloom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    filter: brightness(90%);
+    background-size:cover;
+    background-image: url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    width:370px;
+    height: 200px;
+    color: white;  
+    /* border-radius:1px; */    
+}
+.deals-container2 .ana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(90%);
+    border-radius: 15px;
+    background-size:cover;
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    width:370px;
+    height: 200px;
+    color: white;  
+}
+.deals-container2 .zabo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(90%);
+    border-radius: 15px;
+    background-size:cover;
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    width: 750px;
+}
+
