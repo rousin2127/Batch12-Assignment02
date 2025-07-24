@@ -23,6 +23,10 @@
     max-width: 1140px;
     margin: 30px auto 120px auto;
 }
+.paragraph{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 /* style Navigation  */
 .navigation {
@@ -58,14 +62,45 @@
 
 }
 
-.banner-paragraph {
-    color: rgba(0, 0, 0, 0.5);
-}
-
 .banner-right {
     width: 570px;
 }
 
 .banner-right img {
     width: 100%;
+}
+
+/* Our plant style */
+.plant-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(54, 53, 53);
+    margin-top: 120px;
+    gap: 50px;
+}
+.plant{
+    display: grid;
+    justify-content:space-between;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19px;
+    width: fit-content;
+    
+}
+/* Plants lover Style */
+.plants-lover{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.plants-lover img{
+    width:540px;
+}
+.plants-lover-description{
+    max-width: 540px;
+    margin: 38px 0 38px 60px;
+
+}
+.plants-lover-description li{
+    list-style: disc;
 }
