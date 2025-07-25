@@ -19,15 +19,16 @@
 }
 
 /* shared style */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #F5F8FF;
 }
+
 .container {
     max-width: 1140px;
     margin: 30px auto 120px auto;
@@ -94,7 +95,7 @@ body{
     border: 2px solid rgb(54, 53, 53);
     margin-top: 120px;
     gap: 50px;
-    background-color:white;
+    background-color: white;
 }
 
 .plant {
@@ -139,12 +140,18 @@ body{
 .plants-lover-description li {
     list-style: disc;
 }
+
 @keyframes spin {
-    from { transform: rotate(0deg)}
-    to { transform: rotate(360deg)}
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
 }
 
-.spin{
+.spin {
     animation: spin 3s linear infinite;
 }
 
@@ -157,7 +164,8 @@ body{
     text-align: center;
     margin-top: 120px;
 }
-.deals-container P{
+
+.deals-container P {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -185,7 +193,7 @@ body{
     border-radius: 15px;
     filter: brightness(90%);
     background-size: cover;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-bloom.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-bloom.png);
     background-repeat: no-repeat;
     width: 370px;
     height: 200px;
@@ -201,7 +209,7 @@ body{
     /* filter: brightness(90%); */
     border-radius: 15px;
     background-size: cover;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
     background-repeat: no-repeat;
     /* background: linear-gradient(gray); */
     width: 370px;
@@ -217,7 +225,7 @@ body{
     filter: brightness(90%);
     border-radius: 15px;
     background-size: cover;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
     background-repeat: no-repeat;
     width: 750px;
     color: white;
@@ -242,8 +250,9 @@ body{
     height: 530px;
     color: white;
 }
-.input-fild{
-    display:flex
+
+.input-field {
+    display: flex;
 }
 
 .join input {
@@ -255,11 +264,13 @@ body{
     outline: none;
     border-right: none;
 }
-.join button{
+
+.join button {
     margin: 0;
     outline: none;
     border-left: none;
 }
+
 
 /* Footer secton style */
 
@@ -297,6 +308,11 @@ body{
     margin-bottom: 50px;
 }
 
+.footer-container .logo {
+    margin-bottom: 20px;
+}
+
+
 
 
 
@@ -306,8 +322,8 @@ body{
 
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
-    .container{
-        
+    .container {
+
         max-width: 400px;
         margin: auto;
         margin-top: 50px;
@@ -322,6 +338,10 @@ body{
         padding: 10px;
         height: 38px;
         margin: auto;
+    }
+
+    .nav-logo {
+        width: 63px;
     }
 
     .home,
@@ -346,7 +366,6 @@ body{
         font-size: 24px;
         width: 200px;
         margin-top: 30px;
-        margin-bottom: 15px;
     }
 
     .banner-left p {
@@ -366,7 +385,7 @@ body{
         text-align: center;
         gap: 0;
         /* margin: 0px; */
-        margin-bottom:0px;
+        margin-bottom: 0px;
         background-color: #F5F8FF;
     }
 
@@ -416,55 +435,64 @@ body{
 
     /* plants lover section   */
 
-    .plants-lover{
+    .plants-lover {
 
         display: flex;
         flex-direction: column;
         margin-top: 0px;
 
     }
-    .badge{
+
+    .badge {
         display: none;
     }
-    .plants-lover-description{
+
+    .plants-lover-description {
         width: 360px;
         margin: auto;
         margin-top: 0px;
     }
-    .plants-lover h2{
+
+    .plants-lover h2 {
 
         font-size: 24px;
     }
-    .plants-lover-img{
+
+    .plants-lover-img {
         width: 360px;
         margin: auto;
         margin-left: 30px;
         margin-bottom: 30px;
     }
-    .plants-lover p{
+
+    .plants-lover p {
         font-size: 14px;
     }
-    .plants-lover-description ul{
+
+    .plants-lover-description ul {
         margin-left: 30px;
     }
 
     /* deals section responsive  */
-    .deals-container{
+    .deals-container {
         width: 400px;
         margin: auto;
         margin-top: 50px;
-        margin-bottom:40px;
+        margin-bottom: 40px;
         padding-left: 10px;
     }
-    .deals-container h1{
+
+    .deals-container h1 {
         font-size: 24px;
     }
-    .deals-container p{
+
+    .deals-container p {
         width: 330px;
         margin: auto;
         font-size: 14px;
     }
-    .deals-container2{
+
+    .deals-container2 {
         width: 360px;
         margin: auto;
         margin-top: 50px;
@@ -472,36 +500,43 @@ body{
         flex-direction: column;
         padding-left: 6px;
     }
+
     .deals-container2 .zabo {
         width: 360px;
         height: 172px;
     }
-    .deals-container2 .ana{
-             width: 360px;
-        height: 172px;   
+
+    .deals-container2 .ana {
+        width: 360px;
+        height: 172px;
     }
-    .deals-container2 .bloom{
-                  width: 360px;
-        height: 172px;    
+
+    .deals-container2 .bloom {
+        width: 360px;
+        height: 172px;
     }
-    .deals-container2 h3{
+
+    .deals-container2 h3 {
         font-size: 20px;
     }
-    .deals-container2 a{
+
+    .deals-container2 a {
         font-size: 16px;
     }
 
     /* join join-container */
-    .join-container{
+    .join-container {
         width: 430px;
         height: 275px;
         margin: auto;
         margin-top: 40px;
     }
-    .join-container h1{
+
+    .join-container h1 {
         font-size: 24px;
     }
-    .join-container input{
+
+    .join-container input {
         width: 220px;
         height: 40px;
         margin: auto;
@@ -509,36 +544,41 @@ body{
 
 
     }
-    .join-container button{
+
+    .join-container button {
         font-size: 14px;
         padding: 5px;
-        width:100px;
+        width: 100px;
         height: 40px;
-        
+
     }
+
     /* footer section */
-    .footer-container{
+    .footer-container {
         padding-left: 20px;
         flex-direction: column;
         font-size: 14px;
         margin-bottom: 20px;
     }
-    .footer-container .logo{
+
+    .footer-container .logo {
         margin-bottom: 20px;
     }
-    .footer-container p{
+
+    .footer-container p {
         font-size: 14px;
         margin-bottom: 20px;
 
     }
 
-    .footer-container .footer-item1{
+    .footer-container .footer-item1 {
         font-size: 14px;
         color: rgba(0, 0, 0, 0.5);
     }
-    .footer-container .footer-item2{
+
+    .footer-container .footer-item2 {
         font-size: 14px;
-        color: rgba(0, 0, 0, 0.5);  
+        color: rgba(0, 0, 0, 0.5);
         margin-top: 20px;
         margin-bottom: 20px;
     }
