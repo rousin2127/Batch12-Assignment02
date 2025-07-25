@@ -231,14 +231,23 @@ body{
     height: 530px;
     color: white;
 }
+.input-fild{
+    display:flex
+}
 
 .join input {
+    margin: 0;
     width: 645px;
     height: 50px;
     color: white;
     background-color: white;
     outline: none;
     border-right: none;
+}
+.join button{
+    margin: 0;
+    outline: none;
+    border-left: none;
 }
 
 /* Footer secton style */
